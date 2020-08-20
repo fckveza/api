@@ -32,3 +32,34 @@ def timelinedl(url):
     return data
 #example timeline download
 print(tiktokdl("https:/timeline.line.me/post/_dcAJhbTlVNqvq27gmoe1M6crJ5Xl1a9fUKXRyvw/1157692114207018096"))
+
+def smuledl(url):
+    params = {
+      "apikey": Apikey, 
+      "link": url
+    }
+    data = requests.get(BaseUrl+"/getsmule", params=params).json()
+    return data
+#example smule download
+print(smuledl("https://www.smule.com/p/767512225_3062360163"))
+
+def shortener(url):
+    params = {
+      "apikey": Apikey, 
+      "link": url
+    }
+    data = requests.get(BaseUrl+"/shortener", params=params).json()
+    return data
+#example shortener
+print(shortener("https://www.google.com"))
+
+def googleimg(query):
+    params = {
+      "apikey": Apikey, 
+      "query": query
+    }
+    data = requests.get(BaseUrl+"/googleimg", params=params).json()
+    return data
+#example shortener
+print(googleimg("kopi susu"))
+
