@@ -231,4 +231,13 @@ def xxxvideo(query):
 #example xxxvideo
 print(xxxvideo("japan"))
 
+def gsmarena(query):
+    params = {
+      "apikey": Apikey, 
+      "query": query
+    }
+    data = requests.get(BaseUrl+"/gsmarena", params=params).json()
+    return data
+#example gsmarena
+print(gsmarena("samsung a51"))
 
