@@ -1,6 +1,6 @@
 import requests, json
 
-BaseUrl = "https://api.fckveza.com"
+BaseUrl = "https://api.vhtear.com"
 Apikey = "Chat me https://line.me/ti/p/~veza1007"
 
 def ytdl(url):
