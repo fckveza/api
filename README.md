@@ -1,8 +1,9 @@
-HOST: https://api.fckveza.com
+HOST: https://api.vhtear.com
 
 # VHLittleBot API's
 # Document api
 
++ INSTAGRAM DOWNLOAD 
 + YOUTUBE DOWNLOAD  
 + TIKTOK DOWNLOAD  
 + TIMELINE DOWNLOAD  
@@ -27,3 +28,15 @@ HOST: https://api.fckveza.com
 + SEARCH-PRODUCT SHOPEE  
 + XXX-VIDEO  
 + GSM-ARENA
++ QURAN LIST  
++ QURAN DETAIL  
++ INSTAGRAM PROFILE  
++ SMULE PROFILE  
++ TIKTOK PROFILE  
++ RAMAL PASANGAN  
++ ARTI NAMA  
++ ARTI MIMPI  
++ PRIMBON JODOH  
++ RAMAL WETON  
++ RANDOM HENTAI  
++ RANDOM CAT  
